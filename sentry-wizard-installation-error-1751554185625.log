@@ -1,0 +1,45 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @sanity/preview-kit@5.2.6
+npm warn Found: @sanity/client@7.6.0
+npm warn node_modules/@sanity/client
+npm warn   @sanity/client@"^7.6.0" from @sanity/cli@3.95.0
+npm warn   node_modules/@sanity/cli
+npm warn     @sanity/cli@"3.95.0" from sanity@3.95.0
+npm warn     node_modules/sanity
+npm warn   8 more (@sanity/migrate, @sanity/presentation-comlink, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer @sanity/client@"^6.28.0" from @sanity/preview-kit@5.2.6
+npm warn node_modules/@sanity/preview-kit
+npm warn   @sanity/preview-kit@"5.2.6" from next-sanity@9.8.58-canary.0
+npm warn   node_modules/next-sanity
+npm warn
+npm warn Conflicting peer dependency: @sanity/client@6.29.1
+npm warn node_modules/@sanity/client
+npm warn   peer @sanity/client@"^6.28.0" from @sanity/preview-kit@5.2.6
+npm warn   node_modules/@sanity/preview-kit
+npm warn     @sanity/preview-kit@"5.2.6" from next-sanity@9.8.58-canary.0
+npm warn     node_modules/next-sanity
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: @sanity/visual-editing@2.13.2
+npm warn Found: @sanity/client@6.29.1
+npm warn node_modules/@sanity/visual-editing/node_modules/@sanity/client
+npm warn   @sanity/client@"^6.22.4" from @sanity/mutate@0.11.0-canary.4
+npm warn   node_modules/@sanity/visual-editing/node_modules/@sanity/mutate
+npm warn     @sanity/mutate@"0.11.0-canary.4" from @sanity/visual-editing@2.13.2
+npm warn     node_modules/@sanity/visual-editing
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @sanity/client@"^6.28.0" from @sanity/visual-editing@2.13.2
+npm warn node_modules/@sanity/visual-editing
+npm warn   @sanity/visual-editing@"2.13.2" from next-sanity@9.8.58-canary.0
+npm warn   node_modules/next-sanity
+npm warn
+npm warn Conflicting peer dependency: @sanity/client@6.29.1
+npm warn node_modules/@sanity/client
+npm warn   peerOptional @sanity/client@"^6.28.0" from @sanity/visual-editing@2.13.2
+npm warn   node_modules/@sanity/visual-editing
+npm warn     @sanity/visual-editing@"2.13.2" from next-sanity@9.8.58-canary.0
+npm warn     node_modules/next-sanity
+npm error Unable to resolve reference $react
+npm error A complete log of this run can be found in: C:\Users\medam\AppData\Local\npm-cache\_logs\2025-07-03T14_49_39_924Z-debug-0.log
